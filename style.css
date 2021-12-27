@@ -1,0 +1,49 @@
+*{
+  border-radius: 10px;
+
+}
+body { 
+  display: grid;
+  grid-template-areas: 
+    "header header header"
+    "nav article ads"
+    "footer footer footer";
+  grid-template-rows: 60px 1fr 60px;
+  grid-template-columns: 20% 1fr 15%;
+  grid-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  }
+header, footer, article, nav, div {
+  padding: 20px;
+  background: rgb(206, 11, 28);
+}
+#pageHeader {
+  grid-area: header;
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+    text-shadow:
+  0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #0fa,
+  0 0 82px #0fa,
+  0 0 92px #0fa,
+  0 0 102px #0fa,
+  0 0 151px #0fa;
+  background-image: url(https://th.bing.com/th/id/OIP.L0qWlP4gtB8NeMPquDPX4gHaEL?w=328&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7);
+}
+#pageFooter {
+  grid-area: footer;
+}
+#mainArticle { 
+  grid-area: article;      
+  }
+#mainNav { 
+  grid-area: nav; 
+  }
+#siteAds { 
+  grid-area: ads;
+  padding: 10px; 
+  }
