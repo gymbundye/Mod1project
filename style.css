@@ -71,16 +71,16 @@ header, footer, article, nav, div {
   box-shadow: 2px 2px black;
   text-shadow: 1px 1px black;
 }
-#thisWeekPic{
+.thisWeekPic{
   max-width: 100%;
   max-height: 100%;
   box-shadow: 1px 1px black;
-}
-button{
-  align-self: center;
-  
   
 }
+
+  
+  
+
 a{
   text-decoration: none;
 }
