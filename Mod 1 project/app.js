@@ -76,3 +76,12 @@ window.onclick = function(event) {
     modal3.style.display = "none";
   }
 }
+
+//Api fetch
+//new movie variable
+//const newMovies=document.getElementById("newMovies")
+
+//hook up the buttons
+//newMovies.addEventListener("click"){
+//  fetch()
+//}
