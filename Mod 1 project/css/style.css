@@ -50,6 +50,7 @@ header, footer, article, nav, div {
   box-shadow: 2px 2px black; 
   background-image: url(https://th.bing.com/th/id/OIP.Pib2xIZIpz7_pvVkBUEb4gAAAA?w=167&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
   background-size: cover; 
+  color: #fefefe;
 }
 
   #mainNav { 

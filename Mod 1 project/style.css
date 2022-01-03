@@ -50,6 +50,7 @@ header, footer, article, nav, div {
   box-shadow: 2px 2px black; 
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbyjmEvrafV_TXQ5_DYyap9abLZb-u86jH_w&usqp=CAU);
   background-size: cover; 
+  color: #aaaaaa;
 }
 
   #mainNav { 
@@ -129,6 +130,7 @@ a{
   top: 0;
   left: 0;
 }
+/*firstmodal*/
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
@@ -142,7 +144,6 @@ a{
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
 /* Modal Content */
 .modal-content {
   background-color: #fefefe;
@@ -151,7 +152,6 @@ a{
   border: 1px solid #888;
   width: 80%;
 }
-
 /* The Close Button */
 .close {
   color: #aaaaaa;
@@ -159,10 +159,88 @@ a{
   font-size: 28px;
   font-weight: bold;
 }
-
 .close:hover,
 .close:focus {
   color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+/*the second modal*/
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content2 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close2 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/*the third Modal*/
+/* The Modal (background) */
+.modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content3 {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close3 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
