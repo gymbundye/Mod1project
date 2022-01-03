@@ -263,3 +263,9 @@ a{
   
   
 }
+a{
+  color: gold;
+}
+p{
+  text-shadow: 1px 1px black;
+}
